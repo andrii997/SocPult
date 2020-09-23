@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>SocPult</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/logo.png" type="image/png">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/assets.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  
+</head>
+
+<body class="grid-4">
+
+<header>
+  <div class="container container-header">
+      <a href="index.html" class="header-logo"><img src="img/logo.png" alt="MZ">SocPult</a>
+
+      <ul class="header-links">
+        <li><a href="index.html">Панель управления</a></li>
+        <li><a href="orders.html">Мои заказы</a></li>
+        <li><a href="prices.html">Цены и услуги</a></li>
+        <li><a href="top.html">Топ-10</a></li>
+        <li class="active"><a href="api.html">API</a></li>
+      </ul>
+
+      <div class="links">
+        <a href="order.html" class="btn">Создать<span class="circle"><img src="img/icons/create.svg" alt="create"></span></a>
+        <a href="settings.html" class="btn-settings"><img src="img/icons/settings.svg" alt="settings"></a>
+      </div>
+
+      <div class="btn-menu"><img src="img/icons/menu.svg" alt="menu"></div>
+
+  </div>
+</header>
+
+<div class="mobile-balance">
+  <div class="balance-head">
+    <div class="coin"><img src="img/icons/balance-coin.svg" alt=""></div>
+    <div class="descr">Ваш баланс</div>
+    <div class="sum">500,34 ₽</div>
+  </div>
+  
+  <a href="#" class="btn-blue">Пополнить баланс <img src="img/icons/add-balance.svg" alt="add-balance"></a>
+</div>
+
+<div class="mobile-menu">
+  <div class="mobile-balance">
+    <div class="balance-head">
+      <div class="coin"><img src="img/icons/balance-coin.svg" alt=""></div>
+      <div class="descr">Ваш баланс</div>
+      <div class="sum">500,34 ₽</div>
+    </div>
+    
+    <a href="#" class="btn-blue">Пополнить баланс <img src="img/icons/add-balance.svg" alt="add-balance"></a>
+  </div>
+
+  <div class="links">
+    <a href="order.html" class="btn">Создать заказ<span class="circle"><img src="img/icons/create.svg" alt="create"></span></a>
+    <div>
+      <a href="settings.html" class="btn-settings"><img src="img/icons/settings-menu.svg" alt="settings"></a>
+    </div>
+    
+  </div>
+
+  <ul>
+    <li><a href="index.html">Панель управления</a></li>
+    <li><a href="orders.html">Мои заказы</a></li>
+    <li><a href="prices.html">Цены и услуги</a></li>
+    <li><a href="top.html">Топ-10</a></li>
+    <li class="active"><a href="api.html">API</a></li>
+    <li><a href="land.html">Выйти из аккаунта</a></li>
+  </ul>
+</div>
+
+
+
+<div class="container">
+  <div class="grid">
+
+    <!-- Документация -->
+    <div class="documentation">
+      <div class="title"><img src="img/icons/documentation.svg" alt="">Документация</div>
+      <a href="#" class="btn-grey">API для реселлеров</a>
+    </div>
+
+    <!-- Навигация -->
+    <div class="navigation">
+      <div class="title"><img src="img/icons/navigation.svg" alt="">Навигация</div>
+      <ul>
+        <li class="active"><a href="#">API для партнёров</a></li>
+        <li><a href="#">Получение услуг</a></li>
+        <li><a href="#">Создание заказа</a></li>
+        <li><a href="#">Статус заказа</a></li>
+        <li><a href="#">Отмена заказа</a></li>
+      </ul>
+    </div>
+
+    <div class="api">
+      <div class="title">API для партнёров</div>
+
+      <div class="comment-info">
+        <div class="img"><img src="img/icons/comment-info.svg" alt=""></div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus aliquam quod deserunt excepturi recusandae animi sit dignissimos ut consequatur eum, sunt, neque distinctio, eius numquam.
+      </div>
+
+      <div class="heading">Задания</div>
+      <div class="subtitle">GetServices Получение списка услуг</div>
+      <div class="descr">Используйте этот метод для получения <a href="#">списка услуг</a></div>
+
+      <div class="comment-info">https://api.socgress.com/1/%method%</div>
+
+      <div class="subtitle">CreateTask Создание заказа</div>
+
+      <div class="descr">Используйте этот метод для создания. В случае успеха вернёт объект созданного задания <a href="#">списка услуг</a></div>
+      
+      <ul>
+        <li><span>link</span> (String, required)</li>
+        <li><span>count</span> (Integer, required) Количество выполнений от 10</li>
+        <li><span>service_id</span> (Integer, required) ID услуги</li>
+        <li><span>comment_id </span> (Integer, required) Лимит выполнений в час</li>
+      </ul>
+
+      
+
+      <div class="table">
+        <div class="head"></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.magnific-popup.js"></script>
+
+
+
+</body>
+</html>
